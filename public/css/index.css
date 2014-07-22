@@ -1,0 +1,47 @@
+/********************************      Basic Structure      ********************************/
+html { font-size: 100%; height: 100%; margin-bottom: 1px; /* Always show a scrollbar to avoid jumping when the scrollbar appears  */ }
+body { font-family: Arial, 幼圆; color: #6699cc; font-size: 16px; height: 100% }
+/********************************      Elements styling      ********************************/
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1 { font-size: 31px; font-weight: bold; color: #fff; position: absolute; top: -1000px;  /* Remove this line and delete the logo (in the HTML) if you don't want an image as a logo */ }
+h2 { font-size: 26px; padding: 0 0 10px 0; }
+h3 { font-size: 17px; padding: 0 0 10px 0; }
+h4 { font-size: 16px; padding: 0 0 5px 0; }
+h5 { font-size: 14px; padding: 0 0 5px 0; }
+h6 { font-size: 12px; padding: 0 0 5px 0; }
+a { color: #57a000; text-decoration: none; }
+a:hover { color: #000; }
+a:active { color: #777; }
+a:focus { outline: 1px; }
+strong { font-weight: bold; color: #333; }
+small { font-size: 0.85em; }
+pre { font-family: monospace; }
+p { padding: 5px 0 10px 0; line-height: 1.6em; }
+/********************************      General Classes      ********************************/
+.clear { clear: both; }
+.align-left { float: left; }
+.align-right { float: right; }
+/************ Button ************/
+a.remove-link { color: #bb0000; }
+a.remove-link:hover { color: #000; }
+/********************************      Sidebar      ********************************/
+#sidebar { background: #6699cc; width: 230px; height: 100%; position: absolute; left: 0; top: 0; color: #888; }
+#sidebar a, #sidebar a:active { color: #3399cc; }
+#sidebar a:hover { color: #fff; }
+#sidebar #logo { margin: 40px 0 40px 0; }
+/************ Sidebar Accordion Menu ************/
+#sidebar #main-nav { width: 166px; padding: 0; margin-top: -25px; margin-left: 55px; }
+#sidebar #main-nav li { list-style: none; padding-bottom: 10px; text-align: right; }
+#sidebar #main-nav li a.nav-top-item { background: #ffffff; padding: 10px 25px; color: #6699cc; cursor: pointer; display: block; text-decoration: none; }
+#sidebar #main-nav li a.current { color: #3399cc; font-weight: bold; }
+#sidebar #main-nav li a.current:hover { color: #3399cc; }
+#sidebar #main-nav ul { padding: 0; margin: 0; }
+#login { background: #3399cc; height: 100%; }
+#login-top { text-align: center; padding-top: 140px; }
+#login-content { margin-top: 10px; color:#6699cc; }
+#loginform p { margin-bottom: -8px }
+.submitbtn { font-family: Arial, 幼圆; background: #ffffff; border: 0; color: #6699cc; cursor: pointer; width: 60px; height: 26px; line-height: 26px; margin-left: 94px; border-radius: 4px; padding-bottom: 3px; }
+.submitbtn:hover { background: #2299ff; color: #ffffff; }
+.text-input { width: 150px; height: 26px; margin: 0 0 20px 0; border: 0; background: #fff; color: #6699cc !important; padding-left: 8px; }
+#freshbtn { background: url(../img/replace.png); position: absolute; margin-top: 4px; margin-left: 64px; border: none; height: 20px; width: 20px; cursor: pointer; }
+#freshbtn:hover { background: url(../img/replacehover.png); }
