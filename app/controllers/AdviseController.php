@@ -93,8 +93,7 @@ class AdviseController extends ControllerBase
 		$id = $this->request->getPost('aid');
 		$c = $this->request->getPost('content');
 		
-		$advise = TAdvise::findFirst("ID=".$id);
-		
+		$advise = TAdvise::findFirst("ID=".$id);		
 		$createtime = date('Y-m-d H:i:s',time());
 		$content = $advise->HOWTODEAL."		".$createtime.":".$c;
 		
