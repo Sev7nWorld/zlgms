@@ -20,7 +20,8 @@ function gridChange(t)
 	else if(srcID == 'demopage')
 	{
 		src = "demopage";
-	}else if(srcID == 'exitsys')
+	}
+	else if(srcID == 'exitsys')
 	{
 		window.location = "login/logout";
 	}
